@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perdón Sofiaaaaaaaaaaaaaaaaa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Perdón</h1>
+        <p class="subheading">Una palabra que deseo que escuches desde mi corazón.</p>
+        <audio  controls autoplay loop>
+
+                <source src="sofia.mp3" type="audio/mpeg">
+                
+
+            </audio>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <center><h2>Quiero decirte algo</h2></center>
+            <p>Quiero pedirte perdón por haberte mentido y no ser la persona que dije ser, espero me perdones y espero que no vaya a pasar a más, si no me quieres perdonar, lo entiendo y tienes toda la razón. 
+</p>
+
+            
+            <center><div class="image-space"><img src="https://i.pinimg.com/originals/a1/40/82/a1408237b3f94dbbbc078f724d0b8965.gif"width="200"></center>
+                <button class="color-button" onclick="changeColor('card-1')">Cambiar color</button>
+        </section>
+
+        <section id="card-1" class="card">
+            <center><h2>Reconozco mis errores</h2></center>
+            <p>  Se que lo que hice estuvo mal y eso no se tiene que hacer, actué mal y sin pensar el daño que causaría, te pido perdón nuevamente, y te prometo que voy a cambiar, lo haré por tú.
+</p>
+<center><div class="image-space"><img src="https://i.pinimg.com/originals/d9/95/07/d995075c5e09ac601955633759e11ae4.gif"width="200"></center>
+        </section>
+
+        <section class="card">
+            <center><h2>¿Me das la oportunidad?</h2></center>
+            <p>Te prometo que voy a mejorar y ser la persona que dije ser, te prometo que no te volveré a fallar y será una excelente persona, pero por favor perdoname.</p>
+            <center><div class="image-space"><img src="https://media.tenor.com/JlLG6zqa1yYAAAAM/meper-donas.gif"width="200"></center>
+        </section>
+    </main>
+<br></br>
+    <footer class="footer">
+        <p>Para ti, con todo mi corazón.</p>
+    </footer>
+
+    <script>
+        function changeColor(cardId) {
+            const card = document.getElementById(cardId);
+            const colors = ['#fde2e4', '#ffc8dd', '#ffb3c1', '#ffc6ff', '#f3c4fb'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            card.style.backgroundColor = randomColor;
+        }
+
+        
+    </script>
+</body>
+</html>
